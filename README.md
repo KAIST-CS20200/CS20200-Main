@@ -1,4 +1,4 @@
-KAIST CS20200 (Formerlly CS220)
+KAIST CS20200 (Formerly CS220)
 ===
 
 Welcome to the `main` repository of CS20200. This is where you find resources for
