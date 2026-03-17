@@ -7,7 +7,7 @@ can ask questions and discuss with your peers and TAs.
 
 # Syllabus and Slides
 
-You should visit [this page](https://softsec.kaist.ac.kr/courses/2025s-cs20200/) to see them.
+You should visit [this page](https://softsec.kaist.ac.kr/courses/2026s-cs20200/) to see them.
 
 # Questions
 
