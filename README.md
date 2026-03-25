@@ -85,5 +85,5 @@ workflow will be as follows.
 
 ### How do I install .NET SDK?
 
-You should install .NET SDK 9.0 or above. Please read this
+You should install .NET SDK 10.0 or above. Please read this
 [guide](https://learn.microsoft.com/en-us/dotnet/core/install/).
