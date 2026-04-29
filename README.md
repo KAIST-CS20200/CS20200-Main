@@ -9,6 +9,11 @@ can ask questions and discuss with your peers and TAs.
 
 You should visit [this page](https://softsec.kaist.ac.kr/courses/2026s-cs20200/) to see them.
 
+# Hall of Fame
+
+See [Hall of Fame](./HALL_OF_FAME.md) for the best term projects from each
+semester.
+
 # Questions
 
 You should use the discussions tab of this repository to ask questions. One
