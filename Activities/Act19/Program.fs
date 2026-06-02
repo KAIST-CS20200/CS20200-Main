@@ -1,4 +1,4 @@
-﻿/// KAIST CS220 In-Class Activity Project
+/// KAIST CS220 In-Class Activity Project
 
 module CS220.Program
 
@@ -7,9 +7,9 @@ type BankMessage =
   | GetBalance of AsyncReplyChannel<int>
 
 let account initialBalance =
-  MailboxProcessor.Start (fun inbox ->
+  MailboxProcessor.Start(fun inbox ->
     let rec loop balance = async {
-      let! msg = inbox.Receive ()
+      let! msg = inbox.Receive()
       match msg with
       | Withdraw amount ->
         if amount <= balance then

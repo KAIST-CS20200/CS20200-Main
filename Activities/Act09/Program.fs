@@ -1,4 +1,4 @@
-﻿/// KAIST CS220 In-Class Activity Project
+/// KAIST CS220 In-Class Activity Project
 
 type Hero =
   | SuperMan

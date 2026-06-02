@@ -1,4 +1,4 @@
-﻿/// KAIST CS220 In-Class Activity Project
+/// KAIST CS220 In-Class Activity Project
 
 /// Problem 1: this is currently an integer list. Modify this type to be a
 /// generic list type.
@@ -10,7 +10,7 @@ let empty =
   Nil
 
 let cons elt lst =
-  Cons (elt, lst)
+  Cons(elt, lst)
 
 let car lst =
   failwith "Implement"

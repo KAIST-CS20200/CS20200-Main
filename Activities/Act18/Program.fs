@@ -1,11 +1,11 @@
-﻿/// KAIST CS220 In-Class Activity Project
+/// KAIST CS220 In-Class Activity Project
 
 module CS220.Program
 
 open FSharpx.Collections
 
 let inf =
-  LazyList.unfold (fun n -> Some (n, n + 1)) 1
+  LazyList.unfold (fun n -> Some(n, n + 1)) 1
 
 // Problem
 let pairwise lst =

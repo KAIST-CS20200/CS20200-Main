@@ -10,15 +10,15 @@ type DB = User list
 
 module DB =
   let (|DBLine|_|) line =
-    let m = Regex.Match (line, "([^,]+),(.+)")
+    let m = Regex.Match(line, "([^,]+),(.+)")
     if m.Success then
-      Some (m.Groups[1].Value.Trim (), m.Groups[2].Value.Trim ())
+      Some(m.Groups[1].Value.Trim(), m.Groups[2].Value.Trim())
     else None
 
   let initializeFromCSV path =
     File.ReadAllLines path
     |> Array.choose (fun line ->
       match line with
-      | DBLine (name, pw) -> failwith "Implement"
+      | DBLine(name, pw) -> failwith "Implement"
       | _ -> None)
     |> Array.toList

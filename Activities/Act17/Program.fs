@@ -1,15 +1,15 @@
-﻿/// KAIST CS220 In-Class Activity Project
+/// KAIST CS220 In-Class Activity Project
 
 module CS220.Program
 
 open Stream
 
-let rec ones = Cons (1, fun () -> ones)
+let rec ones = Cons(1, fun () -> ones)
 
 /// This is the main entry point.
 [<EntryPoint>]
 let main _ =
-  [1; 2; 3; 4; 5]
+  [ 1; 2; 3; 4; 5 ]
   |> fromList
   |> take 3
   |> cdr

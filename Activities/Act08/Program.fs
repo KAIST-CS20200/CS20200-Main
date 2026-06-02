@@ -1,4 +1,4 @@
-﻿/// KAIST CS220 In-Class Activity Project
+/// KAIST CS220 In-Class Activity Project
 
 open System.Diagnostics
 
@@ -15,11 +15,11 @@ let myList = List.init 10000 (fun idx -> if idx % 2 = 0 then [] else bigList)
 let countEmptyList lst =
   0
 
-let stopWatch = Stopwatch ()
-stopWatch.Start ()
+let stopWatch = Stopwatch()
+stopWatch.Start()
 printfn "%d" <| countEmptyList myList
-stopWatch.Stop ()
-printfn $"Elapsed time: {stopWatch.Elapsed.ToString ()}"
+stopWatch.Stop()
+printfn $"Elapsed time: {stopWatch.Elapsed.ToString()}"
 
 /// Problem 2: Check whether the two given lists are equivalent.
 let equal lst1 lst2 =

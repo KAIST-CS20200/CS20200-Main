@@ -1,10 +1,12 @@
-﻿/// KAIST CS220 In-Class Activity Project
+/// KAIST CS220 In-Class Activity Project
 
 module CS220.Program
 
 open System
 
-type Input = { ID: string; PW: string }
+type Input =
+  { ID: string
+    PW: string }
 
 let validateID input =
   if input.ID.Length > 4 && input.ID.Length <= 12 then Ok input
@@ -27,10 +29,10 @@ let validatePWDigit input =
   else Error "PW should include a digit."
 
 let trimID input =
-  { input with ID = input.ID.Trim () }
+  { input with ID = input.ID.Trim() }
 
 let trimPW input =
-  { input with PW = input.PW.Trim () }
+  { input with PW = input.PW.Trim() }
 
 let validate input =
   failwith "Implement"

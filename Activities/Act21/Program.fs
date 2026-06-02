@@ -1,4 +1,4 @@
-﻿/// KAIST CS220 In-Class Activity Project
+/// KAIST CS220 In-Class Activity Project
 
 module CS220.Program
 
@@ -30,13 +30,13 @@ let expr = { Parse = fun s -> Parser.runOnInput exprRef s }
 let add =
   parser {
     failwith "Implement"
-    return Add (Number 0, Number 0)
+    return Add(Number 0, Number 0)
   }
 
 let sub =
   parser {
     failwith "Implement"
-    return Sub (Number 0, Number 0)
+    return Sub(Number 0, Number 0)
   }
 
 exprRef <- add <|> sub <|> number

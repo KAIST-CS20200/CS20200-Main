@@ -1,4 +1,4 @@
-﻿/// KAIST CS220 In-Class Activity Project
+/// KAIST CS220 In-Class Activity Project
 
 type Shape =
   /// A circle of a radius.
@@ -15,7 +15,7 @@ let area shape =
 
 let circle = Circle 0.5
 let square = Square 1.0
-let triangle = Triangle (1.0, 1.0, 1.0)
+let triangle = Triangle(1.0, 1.0, 1.0)
 
 printfn "circle = %f" <| area circle
 printfn "square = %f" <| area square
