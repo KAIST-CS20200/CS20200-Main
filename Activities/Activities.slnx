@@ -1,0 +1,26 @@
+<Solution>
+  <Project Path="Act01/Act01.fsproj" />
+  <Project Path="Act02/Act02.fsproj" />
+  <Project Path="Act03/Act03.fsproj" />
+  <Project Path="Act04/Act04.fsproj" />
+  <Project Path="Act05/Act05.fsproj" />
+  <Project Path="Act06/Act06.fsproj" />
+  <Project Path="Act07/Act07.fsproj" />
+  <Project Path="Act08/Act08.fsproj" />
+  <Project Path="Act09/Act09.fsproj" />
+  <Project Path="Act10/Act10.fsproj" />
+  <Project Path="Act11/Act11.fsproj" />
+  <Project Path="Act12/Act12.fsproj" />
+  <Project Path="Act13/Act13.fsproj" />
+  <Project Path="Act14/Act14.fsproj" />
+  <Project Path="Act15/Act15.fsproj" />
+  <Project Path="Act16/Act16.fsproj" />
+  <Project Path="Act17/Act17.fsproj" />
+  <Project Path="Act18/Act18.fsproj" />
+  <Project Path="Act19/Act19.fsproj" />
+  <Project Path="Act20/Act20.fsproj" />
+  <Project Path="Act21/Act21.fsproj" />
+  <Project Path="Act22/Act22.fsproj" />
+  <Project Path="Act23/Act23.fsproj" />
+  <Project Path="Act24/Act24.fsproj" />
+</Solution>
