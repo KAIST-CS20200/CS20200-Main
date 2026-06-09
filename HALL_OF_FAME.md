@@ -7,4 +7,6 @@ and future students to strive for excellence in their own work.
 
 ## Spring 2026
 
-- Yet to be updated.
+- [Ouroboros](https://github.com/T9Y9/Ouroboros/tree/main) by Hyeongseop Kim (20240217)
+
+This game was selected as the Best Game Award winner for its creative and original concept, strong requirements analysis and design, as well as clear and concise code and documentation.
